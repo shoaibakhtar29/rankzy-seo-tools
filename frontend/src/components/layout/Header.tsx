@@ -11,11 +11,11 @@ const Header = () => {
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center space-x-2">
             <span className="text-2xl font-bold bg-gradient-to-r from-seo-800 to-seo-600 bg-clip-text text-transparent">
-              RankReadyTools
+              ShoaibAkhtar.org - Online SEO Tools
             </span>
           </Link>
         </div>
-        
+
         <div className="hidden md:flex items-center gap-6">
           <nav className="flex items-center space-x-6 text-sm font-medium">
             <Link to="/tools" className="transition-colors hover:text-seo-600">
@@ -32,7 +32,7 @@ const Header = () => {
             </Link>
           </nav>
         </div>
-        
+
         <div className="flex items-center gap-4">
           <div className="relative w-full max-w-sm hidden md:flex">
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />

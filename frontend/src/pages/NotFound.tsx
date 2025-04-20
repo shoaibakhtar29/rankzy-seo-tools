@@ -5,7 +5,7 @@ import Layout from "@/components/layout/Layout";
 const NotFound = () => {
   return (
     <Layout
-      title="Page Not Found - RankReadyTools"
+      title="Page Not Found - ShoaibAkhtar.org - Online SEO Tools"
       description="The page you're looking for doesn't exist."
     >
       <div className="py-20 text-center">

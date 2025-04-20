@@ -30,7 +30,7 @@ const popularTools = [
   },
   {
     id: "text-case-converter",
-    name: "Text Case Converter", 
+    name: "Text Case Converter",
     icon: Globe,
   },
   {
@@ -43,7 +43,7 @@ const popularTools = [
 const ToolLayout = ({ children, title, description, toolName }: ToolLayoutProps) => {
   return (
     <Layout
-      title={`${title} | Free SEO Tool | RankReadyTools`}
+      title={`${title} | Free SEO Tool | ShoaibAkhtar.org - Online SEO Tools`}
       description={description || `Use our free ${toolName} tool to improve your website's SEO and content quality.`}
       keywords={`${toolName.toLowerCase()}, free seo tools, ${toolName.toLowerCase()} tool, website optimization`}
     >
@@ -54,21 +54,21 @@ const ToolLayout = ({ children, title, description, toolName }: ToolLayoutProps)
               <h1 className="text-3xl font-bold mb-4">{title}</h1>
               {description && <p className="text-gray-600">{description}</p>}
             </div>
-            
+
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
               <div className="lg:col-span-3">
                 <Card className="p-6">
                   {children}
                 </Card>
               </div>
-              
+
               <div className="order-first lg:order-last mb-8 lg:mb-0">
                 <div className="bg-gray-50 p-6 rounded-lg border border-gray-100">
                   <h3 className="font-semibold text-lg mb-4">Popular Tools</h3>
                   <ul className="space-y-3">
                     {popularTools.map((tool) => (
                       <li key={tool.id}>
-                        <Link 
+                        <Link
                           to={`/tools/${tool.id}`}
                           className="flex items-center text-gray-600 hover:text-seo-600"
                         >
@@ -78,9 +78,9 @@ const ToolLayout = ({ children, title, description, toolName }: ToolLayoutProps)
                       </li>
                     ))}
                   </ul>
-                  
+
                   <div className="mt-6 pt-6 border-t border-gray-200">
-                    <Link 
+                    <Link
                       to="/tools"
                       className="text-seo-600 hover:text-seo-700 font-medium flex items-center"
                     >

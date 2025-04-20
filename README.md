@@ -1,5 +1,5 @@
 
-# RankReadyTools - SEO Tools Website
+# ShoaibAkhtar.org - Online SEO Tools - SEO Tools Website
 
 A comprehensive SEO tools website built with React and Node.js. This project provides users with free SEO tools to optimize their website content and improve search engine rankings.
 
@@ -31,7 +31,7 @@ A comprehensive SEO tools website built with React and Node.js. This project pro
 ## Project Structure
 
 ```
-├── src/                  # Frontend source code
+├── frontend/             # Frontend source code
 │   ├── components/       # UI components
 │   ├── pages/            # Page components and routes
 │   ├── utils/            # Utility functions

@@ -10,7 +10,7 @@ import CallToAction from "@/components/home/CallToAction";
 const Index = () => {
   return (
     <Layout
-      title="RankReadyTools - Free SEO Tools to Optimize Your Website"
+      title="ShoaibAkhtar.org - Free SEO Tools to Optimize Your Website"
       description="Access 100+ free SEO tools to improve your website's rankings, analyze content, and boost your online presence. No registration required."
       keywords="seo tools, free seo tools, website optimization, meta tag generator, keyword density, plagiarism checker"
     >

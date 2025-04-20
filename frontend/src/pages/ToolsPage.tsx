@@ -84,15 +84,15 @@ const ToolsPage = () => {
 
   // Filter tools based on search term and active category
   const filteredTools = tools.filter((tool) => {
-    const matchesSearch = tool.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          tool.description.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesSearch = tool.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      tool.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCategory = activeCategory === "all" || tool.category === activeCategory;
     return matchesSearch && matchesCategory;
   });
 
   return (
     <Layout
-      title="SEO Tools - Complete List of Free SEO Tools | RankReadyTools"
+      title="SEO Tools - Complete List of Free SEO Tools | ShoaibAkhtar.org - Online SEO Tools"
       description="Explore our comprehensive collection of free SEO tools to optimize your website, improve rankings, and boost your online visibility."
       keywords="seo tools, free seo tools, website optimization, content analysis, keyword research, meta tags"
     >
@@ -104,7 +104,7 @@ const ToolsPage = () => {
               Explore our complete collection of free SEO tools to help you optimize your website and improve your search engine rankings.
             </p>
           </div>
-          
+
           <div className="max-w-xl mx-auto mb-10">
             <div className="relative">
               <Search className="absolute left-3 top-3 h-5 w-5 text-gray-400" />
@@ -117,7 +117,7 @@ const ToolsPage = () => {
               />
             </div>
           </div>
-          
+
           <Tabs defaultValue="all" className="max-w-4xl mx-auto">
             <TabsList className="mb-8 flex flex-wrap justify-center">
               {categories.map((category) => (
@@ -131,7 +131,7 @@ const ToolsPage = () => {
                 </TabsTrigger>
               ))}
             </TabsList>
-            
+
             <TabsContent value={activeCategory} className="mt-0">
               {filteredTools.length > 0 ? (
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

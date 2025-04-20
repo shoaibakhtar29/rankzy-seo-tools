@@ -8,13 +8,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <h3 className="text-lg font-bold bg-gradient-to-r from-seo-800 to-seo-600 bg-clip-text text-transparent">
-              RankReadyTools
+              ShoaibAkhtar.org - Online SEO Tools
             </h3>
             <p className="text-gray-600 max-w-xs">
               Free online SEO tools to help you optimize your website, improve your content, and boost your search engine rankings.
             </p>
           </div>
-          
+
           <div>
             <h4 className="font-semibold text-gray-900 mb-4">Popular Tools</h4>
             <ul className="space-y-2">
@@ -111,9 +111,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="mt-10 pt-8 border-t border-gray-200 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} RankReadyTools. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ShoaibAkhtar.org - Online SEO Tools. All rights reserved.</p>
         </div>
       </div>
     </footer>
