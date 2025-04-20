@@ -1,0 +1,10 @@
+
+# All robots allowed
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://rankreaddytools.com/sitemap.xml
+
+# Disallow admin area
+Disallow: /admin/
